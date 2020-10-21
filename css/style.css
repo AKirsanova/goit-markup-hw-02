@@ -99,7 +99,8 @@ li{
     font-size: 26px;
     line-height: 1.19;
     color: var(--accent-color); 
-    list-style: none;   
+    list-style: none;  
+    text-decoration: none; 
 }
 
 .logo-studio{
@@ -149,6 +150,7 @@ li{
 }
     
 .hero-button{
+    font-family: "Roboto", sans-serif;
     color: var(--white);
     background-color: var(--accent-color);
     text-decoration: none;
@@ -160,6 +162,8 @@ li{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    border-radius: 4px;
+    border:none;
 }
 
 .hero,
@@ -216,6 +220,8 @@ line-height: 1.71;
     color:var(--black);
 /* button project types bg */
    background-color: var(--grey-bg);
+   border-radius: 4px;
+   border:none;
 }
 
 .project-types-button:hover,
