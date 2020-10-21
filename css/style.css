@@ -98,7 +98,8 @@ li{
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--accent-color);    
+    color: var(--accent-color); 
+    list-style: none;   
 }
 
 .logo-studio{
@@ -117,7 +118,9 @@ li{
     letter-spacing: 0.02em;
     color: var(--black);
 }
-
+.site-nav-link-current {
+    color: var(--accent-color);
+}
     /*contacts*/
 
 .site-contacts-link {
